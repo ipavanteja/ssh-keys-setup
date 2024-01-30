@@ -11,8 +11,14 @@
   ```nginx
   git config --global user.email "your_email@gmail.com"
   ```
+
+- Optional: Set default branch name for `git init`
+
+  ```nginx
+  git config --global init.defaultBranch main
+  ```
   
-  To confirm the configured details:
+- To confirm the configured details:
   
   ```nginx
   git config --global --list
