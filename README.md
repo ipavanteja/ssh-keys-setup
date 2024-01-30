@@ -27,7 +27,7 @@
 ### Generate SSH Keys
 
 - Open the Terminal and run the following command, replacing "your_email@example.com" with your GitHub email address.
-- If your system supports Ed25519, use the first command; otherwise, use the second command for legacy systems:
+- If your system supports Ed25519, use the first command; otherwise, use the second command for legacy systems (older computer systems or environments that may not support newer cryptographic algorithms like Ed25519):
 
   **For Ed25519 algorithm:**
   ```nginx
